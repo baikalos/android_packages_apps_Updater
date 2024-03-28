@@ -56,3 +56,11 @@ prebuilt_etc {
     src: "default-permissions_com.crdroid.updater.xml",
     filename_from_src: true,
 }
+
+prebuilt_etc {
+    name: "baikal_updater_whitelist.xml",
+    system_ext_specific: true,
+    sub_dir: "sysconfig",
+    src: "baikal_updater_whitelist.xml",
+    filename_from_src: true,
+}
