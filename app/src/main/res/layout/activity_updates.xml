@@ -69,14 +69,14 @@
                         android:textSize="56sp"
                         tools:text="LineageOS\n20"/>
 
-                    <ImageView
+                    <!-- ImageView
                         android:layout_width="0dp"
                         android:layout_height="80dp"
                         android:layout_weight="1"
                         android:layout_marginStart="12dp"
                         android:scaleType="fitStart"
                         android:src="@drawable/crdroid"
-                        android:contentDescription="@null" />
+                        android:contentDescription="@null" / -->
                 </LinearLayout>
 
                 <TextView
@@ -86,7 +86,7 @@
                     android:layout_below="@id/header_text_container"
                     android:textColor="?android:attr/textColorPrimary"
                     android:textSize="12sp"
-                    tools:text="Android 13"/>
+                    tools:text="Android 16"/>
 
                 <TextView
                     android:id="@+id/header_build_date"
