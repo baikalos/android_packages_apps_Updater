@@ -12,13 +12,13 @@ import com.android.settingslib.DeviceInfoUtils as SettingsLibDeviceInfoUtils
 object DeviceInfoUtils : SettingsLibDeviceInfoUtils() {
 
     private const val PROP_AB_DEVICE = "ro.build.ab_update"
-    private const val PROP_ALLOW_MAJOR_UPGRADES = "crdroid.updater.allow_major_upgrades"
+    private const val PROP_ALLOW_MAJOR_UPGRADES = "baikalos.updater.allow_major_upgrades"
     private const val PROP_BUILD_DATE = "ro.build.date.utc"
-    private const val PROP_BUILD_VERSION = "ro.crdroid.build.version"
-    private const val PROP_DEVICE = "ro.crdroid.device"
+    private const val PROP_BUILD_VERSION = "ro.baikalos.build.version"
+    private const val PROP_DEVICE = "ro.baikalos.device"
     private const val PROP_NEXT_DEVICE = "ro.updater.next_device"
     private const val PROP_PRODUCT_NAME = "ro.product.name"
-    private const val PROP_UPDATER_ALLOW_DOWNGRADING = "crdroid.updater.allow_downgrading"
+    private const val PROP_UPDATER_ALLOW_DOWNGRADING = "baikalos.updater.allow_downgrading"
     private const val PROP_UPDATE_RECOVERY = "persist.vendor.recovery_update"
 
     // Read-only

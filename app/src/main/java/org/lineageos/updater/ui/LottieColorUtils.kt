@@ -1,7 +1,7 @@
 /*
  * SPDX-FileCopyrightText: The Android Open Source Project
  * SPDX-FileCopyrightText: The LineageOS Project
- * SPDX-FileCopyrightText: crDroid Android Project
+ * SPDX-FileCopyrightText: BaikalOS Android Project
  * SPDX-License-Identifier: Apache-2.0
  */
 
