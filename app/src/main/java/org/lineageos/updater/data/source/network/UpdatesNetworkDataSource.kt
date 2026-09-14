@@ -1,6 +1,6 @@
 /*
  * SPDX-FileCopyrightText: The LineageOS Project
- * SPDX-FileCopyrightText: crDroid Android Project
+ * SPDX-FileCopyrightText: BaikalOS Android Project
  * SPDX-License-Identifier: Apache-2.0
  */
 package org.lineageos.updater.data.source.network

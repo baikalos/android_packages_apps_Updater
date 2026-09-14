@@ -3,7 +3,7 @@
 # SPDX-FileCopyrightText: The LineageOS Project
 # SPDX-License-Identifier: Apache-2.0
 
-updates_dir=/data/crdroid_updates
+updates_dir=/data/baikalos_updates
 
 # $1 = ZIP
 # $2 = UNVERIFIED (optional)
@@ -12,7 +12,7 @@ if [ ! -f "$1" ]; then
    echo "Usage: $0 ZIP [UNVERIFIED] [SERIAL]"
    echo "Push ZIP to $updates_dir and add it to Updater"
    echo
-   echo "The name of ZIP is assumed to have crDroidAndroid-VERSION-DATE-TYPE-* as format"
+   echo "The name of ZIP is assumed to have BaikalOS-VERSION-TYPE-DATE-* as format"
    echo "If UNVERIFIED is set, the app will verify the update"
    exit
 fi
@@ -44,7 +44,7 @@ else
     status=2
 fi
 
-# Assume crDroidAndroid-VERSION-DATE-TYPE-*.zip
+# Assume BaikalOS-VERSION-TYPE-DATE-*.zip
 zip_name=`basename "$zip_path"`
 id=`echo "$zip_name" | sha1sum | cut -d' ' -f1`
 version=`echo "$zip_name" | cut -d'-' -f2`

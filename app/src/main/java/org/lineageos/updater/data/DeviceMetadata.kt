@@ -1,5 +1,5 @@
 /*
- * SPDX-FileCopyrightText: crDroid Android Project
+ * SPDX-FileCopyrightText: BaikalOS Android Project
  * SPDX-License-Identifier: Apache-2.0
  */
 
@@ -13,7 +13,7 @@ data class DeviceMetadata(
     val paypal: String = DEFAULT_PAYPAL,
 ) {
     companion object {
-        const val DEFAULT_TELEGRAM = "https://t.me/crDroidAndroid"
+        const val DEFAULT_TELEGRAM = "https://t.me/BaikalOS"
         const val DEFAULT_PAYPAL = "https://crdroid.net/donate"
     }
 }
