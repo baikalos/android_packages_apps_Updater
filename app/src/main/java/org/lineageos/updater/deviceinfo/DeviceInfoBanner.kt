@@ -121,12 +121,12 @@ fun DeviceInfoBanner(
 private fun DeviceInfoBannerPreview() {
     SettingsTheme {
         DeviceInfoBanner(
-            buildVersion = "12.11",
-            androidVersion = "16",
-            buildDate = "Feb 20",
+            buildVersion = "17.00",
+            androidVersion = "17",
+            buildDate = "Oct 10",
             securityPatch = "Feb 2026",
-            maintainer = "neobuddy89",
-            device = "OnePlus 12",
+            maintainer = "svasiliev22",
+            device = "OnePlus 15",
         )
     }
 }
