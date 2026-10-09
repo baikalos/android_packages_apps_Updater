@@ -50,7 +50,7 @@ fun DeviceInfoActionButtons(modifier: Modifier = Modifier) {
         val buttonColors = ButtonDefaults.textButtonColors(
             contentColor = MaterialTheme.colorScheme.onSurface,
         )
-        TextButton(
+        /*TextButton(
             onClick = {
                 val url = context.getString(R.string.menu_changelog_url, DeviceInfoUtils.device)
                 val intent = Intent(Intent.ACTION_VIEW, url.toUri())
@@ -69,7 +69,7 @@ fun DeviceInfoActionButtons(modifier: Modifier = Modifier) {
             colors = buttonColors,
         ) {
             Text(text = stringResource(R.string.report_issues))
-        }
+        }*/
     }
 }
 

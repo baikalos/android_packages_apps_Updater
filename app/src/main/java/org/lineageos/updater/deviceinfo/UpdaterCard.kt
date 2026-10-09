@@ -253,7 +253,7 @@ fun UpdaterCard(
                         .semantics(mergeDescendants = true) {},
                 ) {
                     Image(
-                        painter = painterResource(R.drawable.crdroid_mark_tight),
+                        painter = painterResource(R.drawable.lineage_mark_tight),
                         contentDescription = stringResource(R.string.brand_name),
                         modifier = Modifier
                             .width(markWidth)
@@ -376,13 +376,13 @@ private fun InfoColumn(
 private fun UpdaterCardPreview() {
     SettingsTheme {
         UpdaterCard(
-            buildVersion = "12.11",
-            androidVersion = "16",
-            buildDate = "Feb 20",
+            buildVersion = "17.0",
+            androidVersion = "17",
+            buildDate = "Oct 10",
             securityPatch = "Feb 2026",
             modifier = Modifier.padding(SettingsDimension.itemPadding),
-            maintainer = "neobuddy89",
-            device = "OnePlus 12",
+            maintainer = "svasiliev22",
+            device = "OnePlus 15",
         )
     }
 }
