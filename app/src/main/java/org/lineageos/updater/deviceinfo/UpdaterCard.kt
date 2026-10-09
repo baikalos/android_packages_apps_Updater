@@ -253,7 +253,7 @@ fun UpdaterCard(
                         .semantics(mergeDescendants = true) {},
                 ) {
                     Image(
-                        painter = painterResource(R.drawable.crdroid_mark_tight),
+                        painter = painterResource(R.drawable.lineage_mark_tight),
                         contentDescription = stringResource(R.string.brand_name),
                         modifier = Modifier
                             .width(markWidth)
